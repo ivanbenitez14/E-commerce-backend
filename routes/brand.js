@@ -2,16 +2,17 @@
 
 const { Router } = require('express');
 const { createBrand, getBrand, updateBrand, deleteBrand } = require('../controllers/brand');
-const { validateJWT } = require('../middlewares/validateJwt');
+const { validatejwt } = require('../middlewares/validatejwt');
+
 
 const router = Router();
 
-router.post('/createBrand',validateJWT, createBrand);
+router.post('/createBrand', validatejwt, createBrand);
 
 router.get('/getBrand', getBrand);
 
-router.put('/updateBrand/:id',validateJWT, updateBrand);
+router.put('/updateBrand/:id', validatejwt, updateBrand);
 
-router.delete('/deleteBrand/:id',validateJWT, deleteBrand);
+router.delete('/deleteBrand/:id', validatejwt, deleteBrand);
 
 module.exports = router;
