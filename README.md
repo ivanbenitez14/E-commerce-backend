@@ -39,7 +39,7 @@ To begin using this API, follow these steps:
 
 1. **Clone the Repository**:
    ```
-   git clone https://github.com/your-username/your-backend-project.git
+   git clone https://github.com/ivanbenitez14/E-commerce-backend.git
    cd your-backend-project
    ```
    
