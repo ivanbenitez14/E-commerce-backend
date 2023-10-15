@@ -60,7 +60,7 @@ To begin using this API, follow these steps:
 
 4. **Start the API in Development Mode**:
    ```
-   npm run dev
+   npm start
    ```
 
 You can now start using this REST API to effectively manage products, brands, and users.
@@ -68,4 +68,3 @@ You can now start using this REST API to effectively manage products, brands, an
 Enjoy working on your backend project!
 
 
-4. **Start the API in Development Mode**:
